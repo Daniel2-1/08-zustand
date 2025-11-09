@@ -63,6 +63,7 @@ export default function NoteForm() {
             className={css.input}
             onChange={handleChange}
             defaultValue={draft.title}
+            required
           />
           {/* <ErrorMessage name="title" component="p" className={css.error} /> */}
         </div>
