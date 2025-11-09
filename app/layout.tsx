@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     "This application lets you create, view and organize your notes.",
   openGraph: {
     title: "Your notes website.",
-    description: "Create and orginize your notes.",
+    description: "Create and organize your notes.",
     url: "https://08-zustand-tau-ten.vercel.app/",
     images: [
       {
@@ -42,7 +42,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${roboto} antialiased`}
+        className={`${roboto.variable} antialiased`}
       >
         <TanStackProvider>
           <Header />
